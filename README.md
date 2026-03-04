@@ -1,73 +1,66 @@
-# Welcome to your Lovable project
+# Employee Management ReactJS Application
 
-## Project info
+## About the Project
+This project is a ReactJS-based Employee Management Application built as part of a frontend assignment. It demonstrates modern React development practices using Vite, TypeScript, TailwindCSS, and shadcn-ui. The application integrates API data, authentication, camera functionality, charts, and map visualization.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+The application allows users to log in, view employee data, check employee details, capture photos using the device camera, and visualize employee information through charts and maps.
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## Features
 
-**Use Lovable**
+### Login Page
+- User authentication with predefined credentials
+- Protected routes using React Router
+- Toast notifications for login feedback
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+### Employee List Page
+- Fetch employee data from API
+- Search functionality
+- Sorting by Name, Salary, and Age
+- Pagination support
+- Refresh data option
+- Navigation to charts and map pages
 
-Changes made via Lovable will be committed automatically to this repo.
+### Employee Details Page
+- Displays detailed employee information
+- Premium UI cards for employee attributes
+- Camera capture using browser camera
+- Image upload fallback if camera permission is denied
 
-**Use your preferred IDE**
+### Photo Result Page
+- Displays captured photo
+- Download image option
+- Retake photo feature
+- Navigation back to employee list
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### Charts Page
+- Salary visualization using bar charts
+- Implemented using Recharts
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Map Page
+- Interactive map displaying employee locations
+- Built using React Leaflet
+- Marker popups showing employee information
 
-Follow these steps:
+---
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## Technologies Used
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
+- ReactJS
 - Vite
 - TypeScript
-- React
-- shadcn-ui
 - Tailwind CSS
+- shadcn-ui
+- React Router DOM
+- Axios
+- Recharts
+- React Leaflet
+- Framer Motion
+- Sonner (toast notifications)
 
-## How can I deploy this project?
+---
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+## API Integration
 
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+API Endpoint:
